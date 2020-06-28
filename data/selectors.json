@@ -1,0 +1,21 @@
+{
+  "general": {
+    "header": "h1",
+    "totalResult": "h3.total-count",
+    "addNameField": "[name='name']",
+    "addNameFieldLabel": "label",
+    "addNameFieldLabelText": "//label[contains(text(),'Enter Counter')]",
+    "addCounterBtn": ".btn-success"
+  },
+  "counter": {
+    "counterName": "h3",
+    "lowerLimitField": "[name='positive]",
+    "upperLimitField": "[name='negative]",
+    "countValue": ".badge",
+    "deleteBtn": ".delete",
+    "resetBtn": ".reset",
+    "editNameField": "[name='edit']",
+    "editNameFieldLabel": "label",
+    "blackBtn": ".btn-black"
+  }
+}
