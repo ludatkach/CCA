@@ -5,6 +5,8 @@
     "addNameField": "[name='name']",
     "addNameFieldLabel": "label",
     "addNameFieldLabelText": "//label[contains(text(),'Enter Counter')]",
+    "defaultValueField": "[name='value']",
+    "defaultValueFieldLabel": "label",
     "addCounterBtn": ".btn-success"
   },
   "counter": {

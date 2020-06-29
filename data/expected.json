@@ -7,7 +7,7 @@
     "defaultValueField": "50",
     "defaultValueFieldLabel": "Enter Initial Count:",
     "addCounterBtn": "ADD COUNTER"
-  }
+  },
   "counter": {
     "counterName": "1. Default Counter",
     "lowerLimitField": "CHANGE STEP OPTIONS?",
@@ -17,6 +17,6 @@
     "resetBtn": "RESET",
     "editNameField": "Default Counter",
     "editNameFieldLabel": "Edit Counter Title:",
-    "blackBtn": "[-1,-2,-3,1,2,3]"
+    "blackBtn": "['-1', '-2', '-3', '1', '2', '3']"
   }
 }
