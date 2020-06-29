@@ -18,6 +18,7 @@
     "@babel/preset-env": "^7.10.3",
     "@babel/register": "^7.10.3",
     "@wdio/cli": "^6.1.22",
+    "chai": "^4.2.0",
     "webdriverio": "^6.1.22"
   },
   "devDependencies": {
