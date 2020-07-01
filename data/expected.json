@@ -24,8 +24,8 @@
   },
   "defaultCounterFunctionality":  {
     "countValue": "0",
-    "countValueTC040": "-1",
-    "countValueTC041": "2",
+    "countValue1neg": "-1",
+    "countValue2pos": "2",
     "inputMin": "1",
     "inputMax": "9"
   }

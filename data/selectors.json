@@ -11,9 +11,9 @@
   },
   "counter": {
     "counterName": "h3",
-    "lowerLimitField": "[name='negative']",
+    "lowerLimitField": ".btn-info.btn-outline-info.btn.Ripple-parent[name='negative']",
     "lowerInputField": "[name='lower']",
-    "upperLimitField": "[name='positive']",
+    "upperLimitField": ".btn-info.btn-outline-info.btn.Ripple-parent[name='positive']",
     "upperInputField": "[name='upper']",
     "countValue": ".badge",
     "deleteBtn": ".delete",

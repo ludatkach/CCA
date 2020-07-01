@@ -1,23 +1,26 @@
 const selectorCnt = require ('../data/selectors').counter;
 
 
-  function  inputNumber (str, value) {
-    if (str === 'left') {
-      if ($(selectorCnt.lowerLimitField).isDisplayed()) {
-        $(selectorCnt.lowerLimitField).click();
-      }
-      $(selectorCnt.lowerInputField).click();
-      browser.keys('Backspace');
-      browser.keys(value);
-    } else {
-      if ($(selectorCnt.upperLimitField).isDisplayed()) {
-        $(selectorCnt.upperLimitField).click();
-      }
-      $(selectorCnt.upperInputField).click();
-      browser.keys('Backspace');
-      browser.keys(value);
-    }
+function  inputNumber (str, value) {
+  let limitFld = '';
+  let inputFld = '';
+  if (str === 'left') {
+    limitFld = selectorCnt.lowerLimitField;
+    inputFld = selectorCnt.lowerInputField;
+  } else {
+    limitFld = selectorCnt.upperLimitField;
+    inputFld = selectorCnt.upperInputField;
   }
+
+  if ($(limitFld).isDisplayed()) {
+    $(limitFld).click();
+  }
+  $(inputFld).click();
+
+  browser.keys(['Control', 'a']);
+  browser.keys('Backspace');
+  browser.keys(value);
+}
 
 
 module.exports = inputNumber;

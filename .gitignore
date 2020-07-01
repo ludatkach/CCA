@@ -4,3 +4,4 @@ allure-report
 package-lock.json
 .git
 .idea
+/debug.log
