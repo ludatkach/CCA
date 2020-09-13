@@ -12,7 +12,8 @@ Available functionality:
 * Edit a counter's title
  ###### Any count changes at any counter should be accumulated/reduced at the total count located at the top of the all counter
 ### Technologies
-The project created on Node.js platform with WebDriverIO and Chai assertion library
+The project created on Node.js platform with WebDriverIO and Chai assertion library.  
+Automatic allure report generation for test results.
 ### Launch
 To use this project, perform the following steps:
 1. Install [Node.js](https://nodejs.org/en/)
